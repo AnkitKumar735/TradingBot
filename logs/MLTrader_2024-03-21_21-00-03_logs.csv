@@ -1,0 +1,696 @@
+2024-03-21 21:00:03,685: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-03-21 21:00:04,480: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:04,622: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:05,677: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-03-21 21:00:05,680: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:00:05,682: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-03-21 21:00:05,682: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:00:05,686: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:05[0m
+2024-03-21 21:00:05,686: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:05,696: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:05,704: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:05,730: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:06,418: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:06,450: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:07,329: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:07,363: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:08,164: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:08,192: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:08,963: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:09,107: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:10,243: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:10,272: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:10,444: root: INFO: [32mNew market order of | 42.5994172740845 SPY buy | at price $586.8624877929688 of class bracket with status unprocessed was submitted.[0m
+2024-03-21 21:00:10,449: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,450: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,450: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,452: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,457: root: INFO: market order of | 42.5994172740845 SPY buy | at price $586.8624877929688 of class bracket with status new was sent to broker backtesting
+2024-03-21 21:00:10,457: root: INFO: market order of | 42.5994172740845 SPY buy | at price $586.8624877929688 of class bracket with status new was sent to broker backtesting
+2024-03-21 21:00:10,457: root: INFO: [32mFilled Transaction: buy 42.5994172740845 of SPY at 469.48999023 USD per share[0m
+2024-03-21 21:00:10,458: root: INFO: market order of | 42.5994172740845 SPY buy | at price $586.8624877929688 of class bracket with status new was filled
+2024-03-21 21:00:10,465: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,467: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-03-21 21:00:10,467: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-03-21 21:00:10,470: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-03-21 21:00:10,470: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,472: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,474: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,475: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,476: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,477: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,480: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-21 21:00:10,481: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,481: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,482: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,483: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,483: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,484: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,486: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-21 21:00:10,486: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-03-21 21:00:10,486: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,486: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,487: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,487: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,488: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,488: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,491: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-03-21 21:00:10,492: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,494: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,495: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:00:10,495: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,495: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,497: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,497: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,497: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,500: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-03-21 21:00:10,500: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:00:10,505: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,506: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,508: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,509: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,509: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,510: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,511: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,511: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,511: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,514: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,515: root: INFO: Current backtesting datetime 2023-12-18 16:00:00-05:00
+2024-03-21 21:00:10,516: root: INFO: Current backtesting datetime 2023-12-19 09:30:00-05:00
+2024-03-21 21:00:10,518: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,520: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,521: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,521: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,522: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,524: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,526: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,528: root: INFO: Current backtesting datetime 2023-12-19 16:00:00-05:00
+2024-03-21 21:00:10,528: root: INFO: Current backtesting datetime 2023-12-20 09:30:00-05:00
+2024-03-21 21:00:10,531: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,531: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,532: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,533: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,533: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,533: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,534: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,535: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,535: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,536: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,537: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,539: root: INFO: Current backtesting datetime 2023-12-20 16:00:00-05:00
+2024-03-21 21:00:10,539: root: INFO: Current backtesting datetime 2023-12-21 09:30:00-05:00
+2024-03-21 21:00:10,543: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,543: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,544: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,545: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,545: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,545: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,546: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,547: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,547: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,548: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,549: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,551: root: INFO: Current backtesting datetime 2023-12-21 16:00:00-05:00
+2024-03-21 21:00:10,551: root: INFO: Current backtesting datetime 2023-12-22 09:30:00-05:00
+2024-03-21 21:00:10,553: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,554: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,555: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,556: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,556: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,556: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,558: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,558: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,559: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,560: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,562: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,563: root: INFO: Current backtesting datetime 2023-12-22 16:00:00-05:00
+2024-03-21 21:00:10,564: root: INFO: Current backtesting datetime 2023-12-23 09:30:00-05:00
+2024-03-21 21:00:10,566: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-03-21 21:00:10,566: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,566: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,567: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,568: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,568: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,569: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,570: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,570: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,571: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,572: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,572: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,573: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,576: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-03-21 21:00:10,577: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,577: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,578: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,579: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,579: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,580: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,582: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-03-21 21:00:10,582: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-03-21 21:00:10,582: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,582: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,583: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,583: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,584: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,584: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,586: root: INFO: Current backtesting datetime 2023-12-26 08:30:00-05:00
+2024-03-21 21:00:10,587: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,590: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,591: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:00:10,592: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,592: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,593: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,593: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,593: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,594: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,596: root: INFO: Current backtesting datetime 2023-12-26 09:30:00-05:00
+2024-03-21 21:00:10,596: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:00:10,599: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,600: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,601: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,602: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,602: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,602: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,603: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,606: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,608: root: INFO: Current backtesting datetime 2023-12-26 16:00:00-05:00
+2024-03-21 21:00:10,608: root: INFO: Current backtesting datetime 2023-12-27 09:30:00-05:00
+2024-03-21 21:00:10,611: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,611: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,613: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,614: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,614: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,614: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,665: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,666: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,666: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,668: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,670: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,671: root: INFO: Current backtesting datetime 2023-12-27 16:00:00-05:00
+2024-03-21 21:00:10,672: root: INFO: Current backtesting datetime 2023-12-28 09:30:00-05:00
+2024-03-21 21:00:10,674: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,674: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,676: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,676: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,676: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,676: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,677: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,678: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,678: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,679: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,680: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,682: root: INFO: Current backtesting datetime 2023-12-28 16:00:00-05:00
+2024-03-21 21:00:10,682: root: INFO: Current backtesting datetime 2023-12-29 09:30:00-05:00
+2024-03-21 21:00:10,685: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,686: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,687: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,688: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:00:10[0m
+2024-03-21 21:00:10,688: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,688: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,689: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,689: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,689: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,690: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,692: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:00:10,694: root: INFO: Current backtesting datetime 2023-12-29 16:00:00-05:00
+2024-03-21 21:00:10,695: root: INFO: Current backtesting datetime 2023-12-30 09:30:00-05:00
+2024-03-21 21:00:10,697: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-03-21 21:00:10,697: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,697: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,699: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,702: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,702: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,703: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,703: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,703: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,704: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,706: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-03-21 21:00:10,707: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,707: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,708: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,709: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,709: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,710: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,712: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-03-21 21:00:10,712: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-03-21 21:00:10,712: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,712: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,714: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,715: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,715: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,716: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,718: root: INFO: Current backtesting datetime 2024-01-02 08:30:00-05:00
+2024-03-21 21:00:10,719: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,721: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,723: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:00:10,723: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,723: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,724: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,725: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,725: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,726: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,728: root: INFO: Current backtesting datetime 2024-01-02 09:30:00-05:00
+2024-03-21 21:00:10,728: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:00:10,730: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,730: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,731: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,731: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,731: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,732: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,734: root: INFO: Current backtesting datetime 2024-01-02 15:59:00-05:00
+2024-03-21 21:00:10,735: root: INFO: MLTrader : Executing the before_market_closes lifecycle method
+2024-03-21 21:00:10,735: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,735: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,736: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,737: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-03-21 21:00:10,737: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,738: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:00:10,740: root: INFO: Current backtesting datetime 2024-01-02 16:00:00-05:00
+2024-03-21 21:00:10,740: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-03-21 21:00:10,740: root: INFO: MLTrader : Executing the on_strategy_end lifecycle method
+2024-03-21 21:00:10,774: root: INFO: Backtesting finished
+2024-03-21 21:00:11,005: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:11,031: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:11,982: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:12,009: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:12,940: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:12,976: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:13,852: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:13,876: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:14,845: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:14,873: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:15,613: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:15,647: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:16,343: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:16,412: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:17,244: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 130, in _start_ws
+    await self._connect()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\alpaca\trading\stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1098, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1131, in _create_connection_transport
+    await waiter
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 577, in _on_handshake_complete
+    raise handshake_exc
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py", line 559, in _do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 979, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:992)
+2024-03-21 21:00:17,270: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-03-21 21:00:17,749: backtest_stats: INFO: Backtest took 0:00:14.067257 for a speed of 0.000

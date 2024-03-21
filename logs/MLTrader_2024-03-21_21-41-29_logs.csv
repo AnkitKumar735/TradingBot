@@ -1,0 +1,84 @@
+2024-03-21 21:41:29,665: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-03-21 21:41:30,973: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-03-21 21:41:30,975: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:41:30,976: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-03-21 21:41:30,976: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:41:30,978: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:30[0m
+2024-03-21 21:41:30,978: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:30,984: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:35,201: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:41:35[0m
+2024-03-21 21:41:35,203: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:41:35,206: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-03-21 21:41:35,206: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-03-21 21:41:35,208: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-03-21 21:41:35,212: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-21 21:41:35,214: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-03-21 21:41:35,214: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-03-21 21:41:35,217: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-03-21 21:41:35,219: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-03-21 21:41:35,220: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-03-21 21:41:35,220: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-03-21 21:41:35,223: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:35[0m
+2024-03-21 21:41:35,223: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:35,226: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:36,637: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:41:36[0m
+2024-03-21 21:41:36,639: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:41:36,641: root: INFO: Current backtesting datetime 2023-12-18 16:00:00-05:00
+2024-03-21 21:41:36,641: root: INFO: Current backtesting datetime 2023-12-19 09:30:00-05:00
+2024-03-21 21:41:36,643: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:36[0m
+2024-03-21 21:41:36,643: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:36,647: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:38,187: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:41:38[0m
+2024-03-21 21:41:38,190: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:41:38,192: root: INFO: Current backtesting datetime 2023-12-19 16:00:00-05:00
+2024-03-21 21:41:38,193: root: INFO: Current backtesting datetime 2023-12-20 09:30:00-05:00
+2024-03-21 21:41:38,194: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:38[0m
+2024-03-21 21:41:38,194: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:38,196: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:39,885: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:41:39[0m
+2024-03-21 21:41:39,887: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:41:39,889: root: INFO: Current backtesting datetime 2023-12-20 16:00:00-05:00
+2024-03-21 21:41:39,890: root: INFO: Current backtesting datetime 2023-12-21 09:30:00-05:00
+2024-03-21 21:41:39,891: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:39[0m
+2024-03-21 21:41:39,891: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:39,893: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:41,858: root: INFO: [34mMLTrader : Trading iteration ended at 2024-03-21 21:41:41[0m
+2024-03-21 21:41:41,860: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-03-21 21:41:41,861: root: INFO: Current backtesting datetime 2023-12-21 16:00:00-05:00
+2024-03-21 21:41:41,862: root: INFO: Current backtesting datetime 2023-12-22 09:30:00-05:00
+2024-03-21 21:41:41,863: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-03-21 21:41:41[0m
+2024-03-21 21:41:41,864: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:41,866: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-03-21 21:41:44,195: root: ERROR: 'MLTrader' object has no attribute 'last_order'
+2024-03-21 21:41:44,198: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\strategies\strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KIIT\AppData\Local\Programs\Python\Python311\Lib\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "a:\Python\Python Projects\Project1\tradingbot.py", line 76, in on_trading_iteration
+    if self.last_order == "buy":
+       ^^^^^^^^^^^^^^^
+AttributeError: 'MLTrader' object has no attribute 'last_order'
+
+2024-03-21 21:41:44,205: root: INFO: MLTrader : Executing the on_bot_crash event method
+2024-03-21 21:41:44,269: root: INFO: Backtesting finished
+2024-03-21 21:41:44,285: root: INFO: There were no trades in this backtest.
+2024-03-21 21:41:44,486: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-03-21 21:41:44,486: backtest_stats: INFO: Backtest took 0:00:14.822888 for a speed of 0.000
